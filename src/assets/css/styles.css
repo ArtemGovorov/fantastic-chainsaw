@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+*{ box-sizing: border-box; }
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    padding: 20px 80px;
+}
+
+.col-6 {
+    float: left;
+    width: 50%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-6,
+.col-12 {
+  margin-bottom: 20px;
+}
+
+label {
+  display:block;
+}
+
+input {
+  display: block;
+  margin: 0 0 5px 0;
+}
+
+.overview {
+  position: fixed;
+  top: 10%;
+  right: 10%;
+}
+
+.error {
+  border-color: red
+}

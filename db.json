@@ -1,0 +1,46 @@
+{
+  "config": {
+    "titles": [
+      {
+        "id": 1,
+        "value": "Mr"
+      },
+      {
+        "id": 2,
+        "value": "Mrs"
+      },
+      {
+        "id": 3,
+        "value": "Miss"
+      }
+    ],
+    "appliances": [
+      {
+        "id": "WM",
+        "value": "Washing Machine"
+      },
+      {
+        "id": "DW",
+        "value": "Dish Washer"
+      },
+      {
+        "id": "TD",
+        "value": "Tumble Dryer"
+      }
+    ],
+    "prices": [
+      {
+        "id": 1,
+        "value": "100 - 199"
+      },
+      {
+        "id": 2,
+        "value": "200 - 299"
+      },
+      {
+        "id": 3,
+        "value": "300 - 399"
+      }
+    ]
+  }
+}

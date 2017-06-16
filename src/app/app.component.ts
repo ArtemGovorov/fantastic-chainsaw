@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
-import '../assets/css/styles.css';
+import '../assets/scss/styles.scss';
 
 @Component({
   selector: 'app-root',
-  styleUrls: ['app.component.css'],
+  styleUrls: ['app.component.scss'],
   template:`
     <div class='app container'>
       <h1>{{title}}</h1>

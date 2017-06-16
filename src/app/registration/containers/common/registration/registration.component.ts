@@ -13,7 +13,7 @@ import { Config, RegDetails } from '../../../models/common/registration.interfac
 
 @Component({
   selector: 'registration',
-  styleUrls:['registration.component.css'],
+  styleUrls:['registration.component.scss'],
   template:`
     <form [formGroup]="form" (ngSubmit)="onSubmit()">
       <div class="col-6">

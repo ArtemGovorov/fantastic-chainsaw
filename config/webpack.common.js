@@ -59,6 +59,11 @@ module.exports = {
             }
           }
         ]
+      },
+      // Bootstrap 3
+      {
+        test: /bootstrap-sass[\/\\]assets[\/\\]javascripts[\/\\]/,
+        use: ['imports-loader?jQuery=jquery']
       }
     ]
   },

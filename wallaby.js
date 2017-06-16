@@ -6,7 +6,7 @@ const ENV = process.env.ENV = process.env.NODE_ENV = 'test';
 
 var webpackPostprocessor = wallabyWebpack({
   entryPatterns: [
-    'config/spec-bundle.js',
+    'config/karma-test-shim.js',
     'src/**/*spec.js'
   ],
 
@@ -34,7 +34,7 @@ module.exports = function () {
 
   return {
     files: [
-      {pattern: 'config/spec-bundle.js', load: false},
+      {pattern: 'config/karma-test-shim.js', load: false},
       {pattern: 'config/karma-require.js', load: false},
       {pattern: 'src/**/*.ts', load: false},
       {pattern: 'src/**/*.css', load: false},

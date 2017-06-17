@@ -16,8 +16,7 @@ var webpackPostprocessor = wallabyWebpack({
       {test: /\.js$/, loader: 'angular2-template-loader', exclude: /node_modules/},
       
       // if importing .scss files in your component styleUrls uncomment the following line
-      // { test: /\.scss$/, loaders: ['raw-loader', 'sass-loader'] },
-      {test: /\.css$/, loader: 'raw-loader'},
+      { test: /\.scss$/, loaders: ['raw-loader', 'sass-loader'] },
       {test: /\.json$/, loader: 'json-loader'},
       {test: /\.html$/, loader: 'raw-loader'},
       {test: /karma-require/, loader: 'null-loader'}
@@ -37,7 +36,7 @@ module.exports = function () {
       {pattern: 'config/karma-test-shim.js', load: false},
       {pattern: 'config/karma-require.js', load: false},
       {pattern: 'src/**/*.ts', load: false},
-      {pattern: 'src/**/*.css', load: false},
+      {pattern: 'src/**/*.scss', load: false},
       {pattern: 'src/**/*.html', load: false},
       {pattern: 'src/**/*.json', load: false},
       {pattern: 'src/**/*spec.ts', ignore: true},
